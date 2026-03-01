@@ -1,1 +1,13 @@
-<h1>Hello from {{ name }}! </h1>
+{% extends "layouts/base.html" %}
+{% load static %}
+{% block title %}My First Index HTML Page{% endblock title %}
+{% block content %}
+    <h1 style="color: blue;">This is heading 1 (Library)</h1>
+    <p style="color: white;background-color: black;">This is Paragraph Text</p>
+    <a herf="https://www.w3schools.com/html/default.asp">
+        Click Here to Learn more about HTML & CSS
+    </a>
+    <hr>
+    <h2>This us heading 2</h2>
+    <p>This is some other text.</p>
+{% endblock content %}
