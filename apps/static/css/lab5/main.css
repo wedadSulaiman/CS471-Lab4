@@ -1,0 +1,78 @@
+/* general style */
+.link-box {
+    display: block;
+    padding: 18px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+/* exact background colors from image */
+.green {
+    background-color: #B9F6C7;   /* light green */
+    color: red;
+}
+.gray {
+    background-color: #555555;   /* dark gray */
+    color: #FFD700;              /* yellow */
+}
+.black {
+    background-color: #000000;   /* black */
+    color: white;
+}
+/* link states */
+a:visited {
+    color: inherit;
+}
+a:hover {
+    opacity: 0.85;
+}
+a:active {
+    background-color: #333333;
+}
+.format-title {
+    background-color: #F3F5DC;   
+    color: green;
+    padding: 10px;
+    font-weight: bold;
+}
+.listing-title {
+    background-color: #5F9EA0;   
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+.table-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.simple-table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.simple-table th,
+.simple-table td {
+    border: 1px solid black;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.complex-table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.complex-table th,
+.complex-table td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-cell {
+    vertical-align: middle;
+}

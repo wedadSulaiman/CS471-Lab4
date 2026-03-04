@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab5</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/lab5/main.css' %}">
+</head>
+<body>
+    <!--Task1-->
+    <a href="https://qu.edu.qa"
+       target="_blank"
+       class="link-box green">
+        Go to QU website (open a new tab)
+    </a>
+    <a href="https://qu.edu.qa"
+       class="link-box gray">
+        Go to QU website (open in the same page/tab)
+    </a>
+    <a href="https://qu.edu.qa"
+       class="link-box black">
+        Go to QU website (open in the same page/tab)
+    </a>
+    <!--Task2-->
+    <h1 class="format-title">Example of Formatting tags</h1>
+    <p>This text has <b>subtext</b> using b tag</p>
+    <p>This text has <strong>subtext</strong> using strong tag</p>
+    <p>This text has <i>subtext</i> using i tag</p>
+    <p>This text has <em>subtext</em> using emphasize tag</p>
+    <p>This text has <small>subtext</small> using small tag</p>
+    <p>This text has <mark>subtext</mark> using mark tag</p>
+    <p>This text has <del>subtext</del> using del tag</p>
+    <p>This text has <ins>subtext</ins> using ins tag</p>
+    <p>This text has X<sub>subtext</sub> using sub tag</p>
+    <p>This text has X<sup>subtext</sup> using sup tag</p>
+
+    <!--Task3-->
+     <h1 class="listing-title">The Best Features of the Internet</h1>
+    <ul>
+        <li>You can meet new people from countries around the world.</li>
+        <li>You have access to new media as it becomes public:
+            <ul>
+                <li>New games</li>
+                <li>New applications
+                    <ol>
+                        <li>For business</li>
+                        <li>For pleasure</li>
+                    </ol>
+                </li>
+                <li>Around the clock news</li>
+                <li>Search engines</li>
+                <li>Shopping</li>
+                <li>Programming
+                    <ol>
+                        <li>XML</li>
+                        <li>Java</li>
+                        <li>HTML 5</li>
+                        <li>JavaScript</li>
+                        <li>New languages</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Links</li>
+        <li>Keeping in touch with old friends</li>
+        <li>It's the technology of the future!</li>
+    </ul>
+    <!--Task4-->
+        <!-- ===== Table 1 ===== -->
+    <p class="table-title">Table 1: Table of Fruits and Their Prices</p>
+    <table class="simple-table">
+        <tr>
+            <th>Fruit</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>$0.25</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>$0.50</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>Pineapple</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <th>$3.75</th>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- ===== Table 2 ===== -->
+<p class="table-title">Table 2: A more complex sample table</p>
+<table class="complex-table" border="1">
+    <tr>
+        <td rowspan="2" class="image-cell">
+            <img src="{% static 'images/desert.jpg' %}" alt="Desert" width="220">
+        </td>
+        <th colspan="4" class="table-header">
+            Camelid comparison<br>
+            Approximate as of 6/2011
+        </th>
+    </tr>
+    <!-- columns-->
+    <tr>
+        <th># of humps</th>
+        <th>Indigenous region</th>
+        <th>Spits?</th>
+        <th>Produces wool?</th>
+    </tr>
+    <!-- Dromedary -->
+    <tr>
+        <td><strong>Dromedary</strong></td>
+        <td>1</td>
+        <td>Arabian Peninsula</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+    <!-- Camels -->
+    <tr>
+        <td><strong>Camels (bactrian)</strong></td>
+        <td>2</td>
+        <td>Africa/Asia</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+    <!-- Llamas -->
+    <tr>
+        <td><strong>Llamas</strong></td>
+        <td>1</td>
+        <td>Andes Mountains</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+</table>
+</body>
+</html>
